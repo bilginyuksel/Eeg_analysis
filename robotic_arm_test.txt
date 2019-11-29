@@ -1,0 +1,79 @@
+>>> import pickle
+>>>
+>>> model = pickle.load(open('rfclassifier.sav','rb'))
+>>> from scipy.io import loadmat
+>>> import pandas
+>>> raw_data = loadmat('Subject1_2D.mat')
+>>> data = pandas.DataFrame(raw_data['LeftBackwardImagined'])
+>>> model.predict(data[:3])
+array(['Sol Kol Arka', 'Sol Kol Arka', 'Sol Kol Arka'], dtype=object)
+>>>
+>>>
+>>> data1 = pandas.DataFrame(raw_data['LeftForwardImagined'])
+>>> data2 = pandas.DataFrame(raw_data['RightBackwardImagined'])
+>>> data3 = pandas.DataFrame(raw_data['RightForwardImagined'])
+>>> data4 = pandas.DataFrame(raw_data['RightLeg'])
+>>> data5 = pandas.DataFrame(raw_data['LeftLeg'])
+>>>
+>>>
+>>> coffee = (4,3,5)
+>>> currentPos = [0,0,0]
+>>> # sol kol arka -x yönü, sol kol ön +x yönü
+... # sağ kol arka -y yönü, sağ kol ön +y yönü
+... # sağ ayak -z, sol ayak +z yönü
+>>> import random
+>>> random.randint(1,3000)
+528
+>>> r = random.randint(1,6000)
+>>> model.predict(data1[r-1:r])
+array(['Sol Kol Ön'], dtype=object)
+>>> currentPos[0]+=1
+>>> r = random.randint(1,6000)
+>>> model.predict(data1[r-1:r])
+array(['Sol Kol Ön'], dtype=object)
+>>> currentPos[0]+=1
+>>> r = random.randint(1,6000)
+>>> model.predict(data1[r-1:r])
+array(['Sol Kol Ön'], dtype=object)
+>>> currentPos[0]+=1
+>>> r = random.randint(1,6000)
+>>> model.predict(data1[r-1:r])
+array(['Sol Kol Ön'], dtype=object)
+>>> currentPos[0]+=1
+>>> r = random.randint(1,6000)
+>>> model.predict(data3[r-1:r])
+array(['Sağ Kol Ön'], dtype=object)
+>>> currentPos[1]+=1
+>>> r = random.randint(1,6000)
+>>> model.predict(data3[r-1:r])
+array(['Sağ Kol Ön'], dtype=object)
+>>> currentPos[1]+=1
+>>> r = random.randint(1,6000)
+>>> model.predict(data3[r-1:r])
+array(['Sağ Kol Ön'], dtype=object)
+>>> currentPos[1]+=1
+>>> r = random.randint(1,6000)
+>>> model.predict(data5[r-1:r])
+array(['Sol Ayak'], dtype=object)
+>>> currentPos[2]+=1
+>>> r = random.randint(1,6000)
+>>> model.predict(data5[r-1:r])
+array(['Sol Ayak'], dtype=object)
+>>> currentPos[2]+=1
+>>> r = random.randint(1,6000)
+>>> model.predict(data5[r-1:r])
+array(['Sol Ayak'], dtype=object)
+>>> currentPos[2]+=1
+>>> r = random.randint(1,6000)
+>>> model.predict(data5[r-1:r])
+array(['Sol Ayak'], dtype=object)
+>>> currentPos[2]+=1
+>>> r = random.randint(1,6000)
+>>> model.predict(data5[r-1:r])
+array(['Sol Ayak'], dtype=object)
+>>> currentPos[2]+=1
+>>> currentPos
+[4, 3, 5]
+>>> coffee
+(4, 3, 5)
+>>>

@@ -1,0 +1,2355 @@
+
+C:\Users\FX505\Desktop\BCI\Eeg_analysis>test.py
+C:\Users\FX505\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sklearn\externals\joblib\externals\cloudpickle\cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+You have to move your arm on X position 1 unit
+You have to move your arm on Y position 1 unit
+You have to move your arm on X position -1 unit
+Model predictions completed....
+-------------------------
+1. Prediction
+Model Prediction :  ['Sol Kol Ön']
+Actual Label :  Sol Kol Ön
+X Value Before Prediction :  0
+X Value After Prediction :  1
+-------------------------
+2. Prediction
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Y Value Before Prediction :  2
+Y Value After Prediction :  3
+-------------------------
+3. Prediction
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Z Value Before Prediction :  1
+Z Value After Prediction :  0
+-------------------------
+Results
+Starting position : (0,2,1)
+Object Position : (1,3,0)
+Final Position : (1,3,0)
+******************************
+******************************
+-------------------------
+TEST 2
+You have to move your arm on X position -9 unit
+You have to move your arm on Y position -9 unit
+You have to move your arm on X position -10 unit
+Model predictions completed....
+-------------------------
+1. Prediction
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+X Value Before Prediction :  10
+X Value After Prediction :  9
+-------------------------
+2. Prediction
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+X Value Before Prediction :  9
+X Value After Prediction :  8
+-------------------------
+3. Prediction
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+X Value Before Prediction :  8
+X Value After Prediction :  7
+-------------------------
+4. Prediction
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+X Value Before Prediction :  7
+X Value After Prediction :  6
+-------------------------
+5. Prediction
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+X Value Before Prediction :  6
+X Value After Prediction :  5
+-------------------------
+6. Prediction
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+X Value Before Prediction :  5
+X Value After Prediction :  4
+-------------------------
+7. Prediction
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+X Value Before Prediction :  4
+X Value After Prediction :  3
+-------------------------
+8. Prediction
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+X Value Before Prediction :  3
+X Value After Prediction :  2
+-------------------------
+9. Prediction
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+X Value Before Prediction :  2
+X Value After Prediction :  1
+-------------------------
+10. Prediction
+Model Prediction :  ['Sağ Kol Arka']
+Actual Label :  Sağ Kol Arka
+Y Value Before Prediction :  4
+Y Value After Prediction :  3
+-------------------------
+11. Prediction
+Model Prediction :  ['Sağ Ayak']
+Actual Label :  Sağ Kol Arka
+Z Value Before Prediction :  7
+Z Value After Prediction :  8
+-------------------------
+12. Prediction
+Model Prediction :  ['Sağ Kol Arka']
+Actual Label :  Sağ Kol Arka
+Y Value Before Prediction :  3
+Y Value After Prediction :  2
+-------------------------
+13. Prediction
+Model Prediction :  ['Sağ Ayak']
+Actual Label :  Sağ Kol Arka
+Z Value Before Prediction :  8
+Z Value After Prediction :  9
+-------------------------
+14. Prediction
+Model Prediction :  ['Sağ Kol Arka']
+Actual Label :  Sağ Kol Arka
+Y Value Before Prediction :  2
+Y Value After Prediction :  1
+-------------------------
+15. Prediction
+Model Prediction :  ['Sağ Kol Arka']
+Actual Label :  Sağ Kol Arka
+Y Value Before Prediction :  1
+Y Value After Prediction :  0
+-------------------------
+16. Prediction
+Model Prediction :  ['Sağ Kol Arka']
+Actual Label :  Sağ Kol Arka
+Y Value Before Prediction :  0
+Y Value After Prediction :  -1
+-------------------------
+17. Prediction
+Model Prediction :  ['Sağ Ayak']
+Actual Label :  Sağ Kol Arka
+Z Value Before Prediction :  9
+Z Value After Prediction :  10
+-------------------------
+18. Prediction
+Model Prediction :  ['Sağ Kol Arka']
+Actual Label :  Sağ Kol Arka
+Y Value Before Prediction :  -1
+Y Value After Prediction :  -2
+-------------------------
+19. Prediction
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Z Value Before Prediction :  10
+Z Value After Prediction :  9
+-------------------------
+20. Prediction
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Z Value Before Prediction :  9
+Z Value After Prediction :  8
+-------------------------
+21. Prediction
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Z Value Before Prediction :  8
+Z Value After Prediction :  7
+-------------------------
+22. Prediction
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Z Value Before Prediction :  7
+Z Value After Prediction :  6
+-------------------------
+23. Prediction
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Z Value Before Prediction :  6
+Z Value After Prediction :  5
+-------------------------
+24. Prediction
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Z Value Before Prediction :  5
+Z Value After Prediction :  4
+-------------------------
+25. Prediction
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Z Value Before Prediction :  4
+Z Value After Prediction :  3
+-------------------------
+26. Prediction
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Z Value Before Prediction :  3
+Z Value After Prediction :  2
+-------------------------
+27. Prediction
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Z Value Before Prediction :  2
+Z Value After Prediction :  1
+-------------------------
+28. Prediction
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Z Value Before Prediction :  1
+Z Value After Prediction :  0
+-------------------------
+Results
+Starting position : (10,4,7)
+Object Position : (1,-5,-3)
+Final Position : (1,-2,0)
+******************************
+******************************
+TEST 1
+Start Position : (0,1,2)
+Target Position : (1,1,1)
+------------------------------
+Preparing Test...
+You have to move your arm on X position 1 unit
+You have to move your arm on Y position 0 unit
+You have to move your arm on Z position -1 unit
+------------------------------
+Step 1
+Model Prediction :  ['Sol Kol Ön']
+Actual Label :  Sol Kol Ön
+Updated (x,y,z) = (1,1,2)
+------------------------------
+Step 2
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (1,1,1)
+------------------------------
+Old Position : (0,1,2)
+Target Position : (1,1,1)
+Current Position : (1,1,1)
+******************************
+******************************
+Welcome to user defined test simulation
+Enter your current position: [x,y,z]300,150,-100
+Enter your target position: [x,y,z]220,370,-220
+******************************
+******************************
+TEST 2
+Start Position : (300,150,-100)
+Target Position : (220,370,-220)
+------------------------------
+Preparing Test...
+You have to move your arm on X position -80 unit
+You have to move your arm on Y position 220 unit
+You have to move your arm on Z position -120 unit
+------------------------------
+Step 1
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (299,150,-100)
+------------------------------
+Step 2
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (298,150,-100)
+------------------------------
+Step 3
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (297,150,-100)
+------------------------------
+Step 4
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (296,150,-100)
+------------------------------
+Step 5
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (295,150,-100)
+------------------------------
+Step 6
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (294,150,-100)
+------------------------------
+Step 7
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (293,150,-100)
+------------------------------
+Step 8
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (292,150,-100)
+------------------------------
+Step 9
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (291,150,-100)
+------------------------------
+Step 10
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (290,150,-100)
+------------------------------
+Step 11
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (289,150,-100)
+------------------------------
+Step 12
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (288,150,-100)
+------------------------------
+Step 13
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (287,150,-100)
+------------------------------
+Step 14
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (286,150,-100)
+------------------------------
+Step 15
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (285,150,-100)
+------------------------------
+Step 16
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (284,150,-100)
+------------------------------
+Step 17
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (283,150,-100)
+------------------------------
+Step 18
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (282,150,-100)
+------------------------------
+Step 19
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (281,150,-100)
+------------------------------
+Step 20
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (280,150,-100)
+------------------------------
+Step 21
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (279,150,-100)
+------------------------------
+Step 22
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (278,150,-100)
+------------------------------
+Step 23
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (277,150,-100)
+------------------------------
+Step 24
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (276,150,-100)
+------------------------------
+Step 25
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (275,150,-100)
+------------------------------
+Step 26
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (274,150,-100)
+------------------------------
+Step 27
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (273,150,-100)
+------------------------------
+Step 28
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (272,150,-100)
+------------------------------
+Step 29
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (271,150,-100)
+------------------------------
+Step 30
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (270,150,-100)
+------------------------------
+Step 31
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (269,150,-100)
+------------------------------
+Step 32
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (268,150,-100)
+------------------------------
+Step 33
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (267,150,-100)
+------------------------------
+Step 34
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (266,150,-100)
+------------------------------
+Step 35
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (265,150,-100)
+------------------------------
+Step 36
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (264,150,-100)
+------------------------------
+Step 37
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (263,150,-100)
+------------------------------
+Step 38
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (262,150,-100)
+------------------------------
+Step 39
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (261,150,-100)
+------------------------------
+Step 40
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (260,150,-100)
+------------------------------
+Step 41
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (259,150,-100)
+------------------------------
+Step 42
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (258,150,-100)
+------------------------------
+Step 43
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (257,150,-100)
+------------------------------
+Step 44
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (256,150,-100)
+------------------------------
+Step 45
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (255,150,-100)
+------------------------------
+Step 46
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (254,150,-100)
+------------------------------
+Step 47
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (253,150,-100)
+------------------------------
+Step 48
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (252,150,-100)
+------------------------------
+Step 49
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (251,150,-100)
+------------------------------
+Step 50
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (250,150,-100)
+------------------------------
+Step 51
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (249,150,-100)
+------------------------------
+Step 52
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (248,150,-100)
+------------------------------
+Step 53
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (247,150,-100)
+------------------------------
+Step 54
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (246,150,-100)
+------------------------------
+Step 55
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (245,150,-100)
+------------------------------
+Step 56
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (244,150,-100)
+------------------------------
+Step 57
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (243,150,-100)
+------------------------------
+Step 58
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (242,150,-100)
+------------------------------
+Step 59
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (241,150,-100)
+------------------------------
+Step 60
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (240,150,-100)
+------------------------------
+Step 61
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (239,150,-100)
+------------------------------
+Step 62
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (238,150,-100)
+------------------------------
+Step 63
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (237,150,-100)
+------------------------------
+Step 64
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (236,150,-100)
+------------------------------
+Step 65
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (235,150,-100)
+------------------------------
+Step 66
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (234,150,-100)
+------------------------------
+Step 67
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (233,150,-100)
+------------------------------
+Step 68
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (232,150,-100)
+------------------------------
+Step 69
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (231,150,-100)
+------------------------------
+Step 70
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (230,150,-100)
+------------------------------
+Step 71
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (229,150,-100)
+------------------------------
+Step 72
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (228,150,-100)
+------------------------------
+Step 73
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (227,150,-100)
+------------------------------
+Step 74
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (226,150,-100)
+------------------------------
+Step 75
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (225,150,-100)
+------------------------------
+Step 76
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (224,150,-100)
+------------------------------
+Step 77
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (223,150,-100)
+------------------------------
+Step 78
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (222,150,-100)
+------------------------------
+Step 79
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (221,150,-100)
+------------------------------
+Step 80
+Model Prediction :  ['Sol Kol Arka']
+Actual Label :  Sol Kol Arka
+Updated (x,y,z) = (220,150,-100)
+------------------------------
+Step 81
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,151,-100)
+------------------------------
+Step 82
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,152,-100)
+------------------------------
+Step 83
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,153,-100)
+------------------------------
+Step 84
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,154,-100)
+------------------------------
+Step 85
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,155,-100)
+------------------------------
+Step 86
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,156,-100)
+------------------------------
+Step 87
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,157,-100)
+------------------------------
+Step 88
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,158,-100)
+------------------------------
+Step 89
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,159,-100)
+------------------------------
+Step 90
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,160,-100)
+------------------------------
+Step 91
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,161,-100)
+------------------------------
+Step 92
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,162,-100)
+------------------------------
+Step 93
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,163,-100)
+------------------------------
+Step 94
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,164,-100)
+------------------------------
+Step 95
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,165,-100)
+------------------------------
+Step 96
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,166,-100)
+------------------------------
+Step 97
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,167,-100)
+------------------------------
+Step 98
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,168,-100)
+------------------------------
+Step 99
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,169,-100)
+------------------------------
+Step 100
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,170,-100)
+------------------------------
+Step 101
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,171,-100)
+------------------------------
+Step 102
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,172,-100)
+------------------------------
+Step 103
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,173,-100)
+------------------------------
+Step 104
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,174,-100)
+------------------------------
+Step 105
+Model Prediction :  ['Sağ Kol Arka']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,173,-100)
+------------------------------
+Step 106
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,174,-100)
+------------------------------
+Step 107
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,175,-100)
+------------------------------
+Step 108
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,176,-100)
+------------------------------
+Step 109
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,177,-100)
+------------------------------
+Step 110
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,178,-100)
+------------------------------
+Step 111
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,179,-100)
+------------------------------
+Step 112
+Model Prediction :  ['Sağ Kol Arka']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,178,-100)
+------------------------------
+Step 113
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,179,-100)
+------------------------------
+Step 114
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,180,-100)
+------------------------------
+Step 115
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,181,-100)
+------------------------------
+Step 116
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,182,-100)
+------------------------------
+Step 117
+Model Prediction :  ['Sağ Kol Arka']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,181,-100)
+------------------------------
+Step 118
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,182,-100)
+------------------------------
+Step 119
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,183,-100)
+------------------------------
+Step 120
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,184,-100)
+------------------------------
+Step 121
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,185,-100)
+------------------------------
+Step 122
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,186,-100)
+------------------------------
+Step 123
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,187,-100)
+------------------------------
+Step 124
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,188,-100)
+------------------------------
+Step 125
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,189,-100)
+------------------------------
+Step 126
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,190,-100)
+------------------------------
+Step 127
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,191,-100)
+------------------------------
+Step 128
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,192,-100)
+------------------------------
+Step 129
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,193,-100)
+------------------------------
+Step 130
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,194,-100)
+------------------------------
+Step 131
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,195,-100)
+------------------------------
+Step 132
+Model Prediction :  ['Sağ Kol Arka']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,194,-100)
+------------------------------
+Step 133
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,195,-100)
+------------------------------
+Step 134
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,196,-100)
+------------------------------
+Step 135
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,197,-100)
+------------------------------
+Step 136
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,198,-100)
+------------------------------
+Step 137
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,199,-100)
+------------------------------
+Step 138
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,200,-100)
+------------------------------
+Step 139
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,201,-100)
+------------------------------
+Step 140
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,202,-100)
+------------------------------
+Step 141
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,203,-100)
+------------------------------
+Step 142
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,204,-100)
+------------------------------
+Step 143
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,205,-100)
+------------------------------
+Step 144
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,206,-100)
+------------------------------
+Step 145
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,207,-100)
+------------------------------
+Step 146
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,208,-100)
+------------------------------
+Step 147
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,209,-100)
+------------------------------
+Step 148
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,210,-100)
+------------------------------
+Step 149
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,211,-100)
+------------------------------
+Step 150
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,212,-100)
+------------------------------
+Step 151
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,213,-100)
+------------------------------
+Step 152
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,214,-100)
+------------------------------
+Step 153
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,215,-100)
+------------------------------
+Step 154
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,216,-100)
+------------------------------
+Step 155
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,217,-100)
+------------------------------
+Step 156
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,218,-100)
+------------------------------
+Step 157
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,219,-100)
+------------------------------
+Step 158
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,220,-100)
+------------------------------
+Step 159
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,221,-100)
+------------------------------
+Step 160
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,222,-100)
+------------------------------
+Step 161
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,223,-100)
+------------------------------
+Step 162
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,224,-100)
+------------------------------
+Step 163
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,225,-100)
+------------------------------
+Step 164
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,226,-100)
+------------------------------
+Step 165
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,227,-100)
+------------------------------
+Step 166
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,228,-100)
+------------------------------
+Step 167
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,229,-100)
+------------------------------
+Step 168
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,230,-100)
+------------------------------
+Step 169
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,231,-100)
+------------------------------
+Step 170
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,232,-100)
+------------------------------
+Step 171
+Model Prediction :  ['Sağ Kol Arka']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,231,-100)
+------------------------------
+Step 172
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,232,-100)
+------------------------------
+Step 173
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,233,-100)
+------------------------------
+Step 174
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,234,-100)
+------------------------------
+Step 175
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,235,-100)
+------------------------------
+Step 176
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,236,-100)
+------------------------------
+Step 177
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,237,-100)
+------------------------------
+Step 178
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,238,-100)
+------------------------------
+Step 179
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,239,-100)
+------------------------------
+Step 180
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,240,-100)
+------------------------------
+Step 181
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,241,-100)
+------------------------------
+Step 182
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,242,-100)
+------------------------------
+Step 183
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,243,-100)
+------------------------------
+Step 184
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,244,-100)
+------------------------------
+Step 185
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,245,-100)
+------------------------------
+Step 186
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,246,-100)
+------------------------------
+Step 187
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,247,-100)
+------------------------------
+Step 188
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,248,-100)
+------------------------------
+Step 189
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,249,-100)
+------------------------------
+Step 190
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,250,-100)
+------------------------------
+Step 191
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,251,-100)
+------------------------------
+Step 192
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,252,-100)
+------------------------------
+Step 193
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,253,-100)
+------------------------------
+Step 194
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,254,-100)
+------------------------------
+Step 195
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,255,-100)
+------------------------------
+Step 196
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,256,-100)
+------------------------------
+Step 197
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,257,-100)
+------------------------------
+Step 198
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,258,-100)
+------------------------------
+Step 199
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,259,-100)
+------------------------------
+Step 200
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,260,-100)
+------------------------------
+Step 201
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,261,-100)
+------------------------------
+Step 202
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,262,-100)
+------------------------------
+Step 203
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,263,-100)
+------------------------------
+Step 204
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,264,-100)
+------------------------------
+Step 205
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,265,-100)
+------------------------------
+Step 206
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,266,-100)
+------------------------------
+Step 207
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,267,-100)
+------------------------------
+Step 208
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,268,-100)
+------------------------------
+Step 209
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,269,-100)
+------------------------------
+Step 210
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,270,-100)
+------------------------------
+Step 211
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,271,-100)
+------------------------------
+Step 212
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,272,-100)
+------------------------------
+Step 213
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,273,-100)
+------------------------------
+Step 214
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,274,-100)
+------------------------------
+Step 215
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,275,-100)
+------------------------------
+Step 216
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,276,-100)
+------------------------------
+Step 217
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,277,-100)
+------------------------------
+Step 218
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,278,-100)
+------------------------------
+Step 219
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,279,-100)
+------------------------------
+Step 220
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,280,-100)
+------------------------------
+Step 221
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,281,-100)
+------------------------------
+Step 222
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,282,-100)
+------------------------------
+Step 223
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,283,-100)
+------------------------------
+Step 224
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,284,-100)
+------------------------------
+Step 225
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,285,-100)
+------------------------------
+Step 226
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,286,-100)
+------------------------------
+Step 227
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,287,-100)
+------------------------------
+Step 228
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,288,-100)
+------------------------------
+Step 229
+Model Prediction :  ['Sağ Kol Arka']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,287,-100)
+------------------------------
+Step 230
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,288,-100)
+------------------------------
+Step 231
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,289,-100)
+------------------------------
+Step 232
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,290,-100)
+------------------------------
+Step 233
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,291,-100)
+------------------------------
+Step 234
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,292,-100)
+------------------------------
+Step 235
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,293,-100)
+------------------------------
+Step 236
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,294,-100)
+------------------------------
+Step 237
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,295,-100)
+------------------------------
+Step 238
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,296,-100)
+------------------------------
+Step 239
+Model Prediction :  ['Sağ Kol Arka']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,295,-100)
+------------------------------
+Step 240
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,296,-100)
+------------------------------
+Step 241
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,297,-100)
+------------------------------
+Step 242
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,298,-100)
+------------------------------
+Step 243
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,299,-100)
+------------------------------
+Step 244
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,300,-100)
+------------------------------
+Step 245
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,301,-100)
+------------------------------
+Step 246
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,302,-100)
+------------------------------
+Step 247
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,303,-100)
+------------------------------
+Step 248
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,304,-100)
+------------------------------
+Step 249
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,305,-100)
+------------------------------
+Step 250
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,306,-100)
+------------------------------
+Step 251
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,307,-100)
+------------------------------
+Step 252
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,308,-100)
+------------------------------
+Step 253
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,309,-100)
+------------------------------
+Step 254
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,310,-100)
+------------------------------
+Step 255
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,311,-100)
+------------------------------
+Step 256
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,312,-100)
+------------------------------
+Step 257
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,313,-100)
+------------------------------
+Step 258
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,314,-100)
+------------------------------
+Step 259
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,315,-100)
+------------------------------
+Step 260
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,316,-100)
+------------------------------
+Step 261
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,317,-100)
+------------------------------
+Step 262
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,318,-100)
+------------------------------
+Step 263
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,319,-100)
+------------------------------
+Step 264
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,320,-100)
+------------------------------
+Step 265
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,321,-100)
+------------------------------
+Step 266
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,322,-100)
+------------------------------
+Step 267
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,323,-100)
+------------------------------
+Step 268
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,324,-100)
+------------------------------
+Step 269
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,325,-100)
+------------------------------
+Step 270
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,326,-100)
+------------------------------
+Step 271
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,327,-100)
+------------------------------
+Step 272
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,328,-100)
+------------------------------
+Step 273
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,329,-100)
+------------------------------
+Step 274
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,330,-100)
+------------------------------
+Step 275
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,331,-100)
+------------------------------
+Step 276
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,332,-100)
+------------------------------
+Step 277
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,333,-100)
+------------------------------
+Step 278
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,334,-100)
+------------------------------
+Step 279
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,335,-100)
+------------------------------
+Step 280
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,336,-100)
+------------------------------
+Step 281
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,337,-100)
+------------------------------
+Step 282
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,338,-100)
+------------------------------
+Step 283
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,339,-100)
+------------------------------
+Step 284
+Model Prediction :  ['Sağ Kol Arka']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,338,-100)
+------------------------------
+Step 285
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,339,-100)
+------------------------------
+Step 286
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,340,-100)
+------------------------------
+Step 287
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,341,-100)
+------------------------------
+Step 288
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,342,-100)
+------------------------------
+Step 289
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,343,-100)
+------------------------------
+Step 290
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,344,-100)
+------------------------------
+Step 291
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,345,-100)
+------------------------------
+Step 292
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,346,-100)
+------------------------------
+Step 293
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,347,-100)
+------------------------------
+Step 294
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,348,-100)
+------------------------------
+Step 295
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,349,-100)
+------------------------------
+Step 296
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,350,-100)
+------------------------------
+Step 297
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,351,-100)
+------------------------------
+Step 298
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,352,-100)
+------------------------------
+Step 299
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,353,-100)
+------------------------------
+Step 300
+Model Prediction :  ['Sağ Kol Ön']
+Actual Label :  Sağ Kol Ön
+Updated (x,y,z) = (220,354,-100)
+------------------------------
+Step 301
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-101)
+------------------------------
+Step 302
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-102)
+------------------------------
+Step 303
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-103)
+------------------------------
+Step 304
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-104)
+------------------------------
+Step 305
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-105)
+------------------------------
+Step 306
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-106)
+------------------------------
+Step 307
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-107)
+------------------------------
+Step 308
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-108)
+------------------------------
+Step 309
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-109)
+------------------------------
+Step 310
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-110)
+------------------------------
+Step 311
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-111)
+------------------------------
+Step 312
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-112)
+------------------------------
+Step 313
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-113)
+------------------------------
+Step 314
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-114)
+------------------------------
+Step 315
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-115)
+------------------------------
+Step 316
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-116)
+------------------------------
+Step 317
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-117)
+------------------------------
+Step 318
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-118)
+------------------------------
+Step 319
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-119)
+------------------------------
+Step 320
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-120)
+------------------------------
+Step 321
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-121)
+------------------------------
+Step 322
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-122)
+------------------------------
+Step 323
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-123)
+------------------------------
+Step 324
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-124)
+------------------------------
+Step 325
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-125)
+------------------------------
+Step 326
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-126)
+------------------------------
+Step 327
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-127)
+------------------------------
+Step 328
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-128)
+------------------------------
+Step 329
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-129)
+------------------------------
+Step 330
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-130)
+------------------------------
+Step 331
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-131)
+------------------------------
+Step 332
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-132)
+------------------------------
+Step 333
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-133)
+------------------------------
+Step 334
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-134)
+------------------------------
+Step 335
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-135)
+------------------------------
+Step 336
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-136)
+------------------------------
+Step 337
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-137)
+------------------------------
+Step 338
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-138)
+------------------------------
+Step 339
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-139)
+------------------------------
+Step 340
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-140)
+------------------------------
+Step 341
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-141)
+------------------------------
+Step 342
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-142)
+------------------------------
+Step 343
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-143)
+------------------------------
+Step 344
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-144)
+------------------------------
+Step 345
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-145)
+------------------------------
+Step 346
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-146)
+------------------------------
+Step 347
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-147)
+------------------------------
+Step 348
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-148)
+------------------------------
+Step 349
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-149)
+------------------------------
+Step 350
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-150)
+------------------------------
+Step 351
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-151)
+------------------------------
+Step 352
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-152)
+------------------------------
+Step 353
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-153)
+------------------------------
+Step 354
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-154)
+------------------------------
+Step 355
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-155)
+------------------------------
+Step 356
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-156)
+------------------------------
+Step 357
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-157)
+------------------------------
+Step 358
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-158)
+------------------------------
+Step 359
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-159)
+------------------------------
+Step 360
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-160)
+------------------------------
+Step 361
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-161)
+------------------------------
+Step 362
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-162)
+------------------------------
+Step 363
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-163)
+------------------------------
+Step 364
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-164)
+------------------------------
+Step 365
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-165)
+------------------------------
+Step 366
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-166)
+------------------------------
+Step 367
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-167)
+------------------------------
+Step 368
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-168)
+------------------------------
+Step 369
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-169)
+------------------------------
+Step 370
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-170)
+------------------------------
+Step 371
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-171)
+------------------------------
+Step 372
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-172)
+------------------------------
+Step 373
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-173)
+------------------------------
+Step 374
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-174)
+------------------------------
+Step 375
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-175)
+------------------------------
+Step 376
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-176)
+------------------------------
+Step 377
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-177)
+------------------------------
+Step 378
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-178)
+------------------------------
+Step 379
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-179)
+------------------------------
+Step 380
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-180)
+------------------------------
+Step 381
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-181)
+------------------------------
+Step 382
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-182)
+------------------------------
+Step 383
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-183)
+------------------------------
+Step 384
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-184)
+------------------------------
+Step 385
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-185)
+------------------------------
+Step 386
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-186)
+------------------------------
+Step 387
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-187)
+------------------------------
+Step 388
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-188)
+------------------------------
+Step 389
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-189)
+------------------------------
+Step 390
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-190)
+------------------------------
+Step 391
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-191)
+------------------------------
+Step 392
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-192)
+------------------------------
+Step 393
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-193)
+------------------------------
+Step 394
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-194)
+------------------------------
+Step 395
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-195)
+------------------------------
+Step 396
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-196)
+------------------------------
+Step 397
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-197)
+------------------------------
+Step 398
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-198)
+------------------------------
+Step 399
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-199)
+------------------------------
+Step 400
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-200)
+------------------------------
+Step 401
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-201)
+------------------------------
+Step 402
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-202)
+------------------------------
+Step 403
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-203)
+------------------------------
+Step 404
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-204)
+------------------------------
+Step 405
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-205)
+------------------------------
+Step 406
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-206)
+------------------------------
+Step 407
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-207)
+------------------------------
+Step 408
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-208)
+------------------------------
+Step 409
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-209)
+------------------------------
+Step 410
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-210)
+------------------------------
+Step 411
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-211)
+------------------------------
+Step 412
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-212)
+------------------------------
+Step 413
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-213)
+------------------------------
+Step 414
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-214)
+------------------------------
+Step 415
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-215)
+------------------------------
+Step 416
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-216)
+------------------------------
+Step 417
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-217)
+------------------------------
+Step 418
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-218)
+------------------------------
+Step 419
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-219)
+------------------------------
+Step 420
+Model Prediction :  ['Sol Ayak']
+Actual Label :  Sol Ayak
+Updated (x,y,z) = (220,354,-220)
+------------------------------
+Old Position : (300,150,-100)
+Target Position : (220,370,-220)
+Current Position : (220,354,-220)
