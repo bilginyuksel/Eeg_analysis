@@ -1,0 +1,7 @@
+Welcome to robotic arm simulation GUI Application.
+This application created by Kaan Yuksel Bilgin.
+In this application you can simulate/test your robotic activities or any kind of functional activities.
+First of all you have to configure the applications needs, like objects width,height and targets width,height also their positions on x,y axis.
+After that configuration process over you have to prepare the simulation. After preparation now you can run the simulation and see
+the process. Also you can export your test results to a .txt file. 
+Enjoy with the application greetings!
