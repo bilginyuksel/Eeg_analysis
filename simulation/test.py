@@ -152,7 +152,6 @@ So in our first test, the movements should declare as :
 
 
 
-
 class UserDefinedTests():
     
     def __init__(self,current_pos,obj_pos):

@@ -286,7 +286,7 @@ class Main(QMainWindow):
     def __init__(self):
         super().__init__()
 
-        self.setWindowTitle("Robotic Arm Simulation")
+        self.setWindowTitle("EEG Imaginary Simulation")
         self.menu = self.menuBar() 
         self.setGeometry(600,150,800,600)
         
