@@ -1,37 +1,50 @@
 import pandas as pd
-from typo.gasic import BasicGenerator
-from typo.gediu import MediumGenerator
 from scipy.io import loadmat
-
 import pickle
+import sys
+sys.path.append(".")
+from .typo.gasic import BasicGenerator
+from .typo.gediu import MediumGenerator
+from .typo.gexp import ExpertGenerator
+
 
 
 class SyntheticDataGenerator:
 
-    # Maybe create engine on start.
-    def __init__(self):
-        pass
-
-    def basic_generator_engine(self, data, datalen = 99):
-        basic_engine = BasicGenerator(data)
+    def __init__(self, data):
         
-        # Return dataframe or numpy
-        # For scientific calculations numpy is better but 
-        # you need to find out how to calculate things for numpy
-        return pd.DataFrame(basic_engine.generate(datalen))
+        self.data = data
+        self.generator = None
+        self.synthetic_data = ()
 
-    def medium_generator_engine(self, data, datalen = 99):
-        medium_engine = MediumGenerator(data)
-        return pd.DataFrame(medium_engine.generate(datalen))
+    def _basic_generator_engine_configuration(self):
+        self.generator = BasicGenerator(self.data)
+        self.generator.configure()
 
-    def expert_generator_engine(self, data, datalen = 99):
-        pass
+    def _medium_generator_engine_configuration(self):
+        self.generator = MediumGenerator(self.data)
+        self.generator.configure()
 
-    def advanced_generator_engine(self, data, datalen = 99):
-        pass
+    def _expert_generator_engine_configuration(self,desired_index, model):
+        self.generator = ExpertGenerator(self.data, desired_index)
+        self.generator.setModel(model)
+        self.generator.configure()
+
+    def configGenerator(self, genType, desired_index = None, model = None):
+        if genType == "Basic":
+            self._basic_generator_engine_configuration()
+        elif genType == 'Medium':
+            self._medium_generator_engine_configuration()
+        elif genType == 'Expert':
+            self._expert_generator_engine_configuration(desired_index, model)
+
+    # You may choose to return array or numpy array instead of dataframe
+    def generateSyntheticData(self, datalen):
+        return pd.DataFrame(self.generator.generate(datalen))
+
+
 
    
-
 
 model = pickle.load(open('C:/Users/bilgi/Documents/Yuksel Documents/BCI/BCI/Eeg_analysis/simulation/Random Forest Classifier.sav','rb'))
 logreg = pickle.load(open('C:/Users/bilgi/Documents/Yuksel Documents/BCI/BCI/Eeg_analysis/simulation/Logistic Regression.sav','rb'))
@@ -44,9 +57,13 @@ lback_data = pd.concat([pd.DataFrame(raw_data['LeftBackward1']),
     pd.DataFrame(raw_data['LeftBackward3']),
     pd.DataFrame(raw_data['LeftBackwardImagined'])])
 
-synthetic = SyntheticDataGenerator()
-result = synthetic.basic_generator_engine(lback_data)
-result2 = synthetic.medium_generator_engine(lback_data, datalen=100)
+synthetic = SyntheticDataGenerator(lback_data)
+synthetic.configGenerator("Basic")
+result = synthetic.generateSyntheticData(400)
+
+synthetic1 = SyntheticDataGenerator(lback_data)
+synthetic1.configGenerator("Medium")
+result2 = synthetic1.generateSyntheticData(1000)
 
 result = pd.DataFrame(result)
 result2 = pd.DataFrame(result2)
@@ -56,32 +73,39 @@ result2 = pd.DataFrame(result2)
 mod_res = model.predict(result.loc[:])
 mod_res2 = model.predict(result2.loc[:])
 
-probabilities = logreg.predict_proba(result2.loc[10:12])
-for i in range(len(probabilities)):
-    tmp = []
-    max_index = 0
-    for j in range(len(probabilities[i])):
-        if probabilities[i][max_index] < probabilities[i][j]:
-            max_index = j
-        # tmp.append( probabilities[i][j] * 100 )
-    print("Max Index : ",max_index)
-    # print(tmp)
-    
-print(probabilities)
-print(logreg.predict(result2.loc[10:12]))
-# print()
-# print()
-# print(logreg.predict_log_proba(result2.loc[10:12]))
+
 
 count = 0
-count2 = 0
+# count2 = 0
+lf = 0
+lb = 0
+rf = 0
+rb = 0
+rl = 0
+ll = 0
 
 for i in mod_res: 
     if i == "LeftBackward": count+=1
 
 for i in mod_res2:
-    if i=="LeftBackward": count2+=1
+    if i=="LeftBackward": lb+=1
+    elif i == 'LeftForward': lf+=1
+    elif i == 'RightBackward': rb+=1
+    elif i == 'RightForward': rf+=1
+    elif i == 'LeftLeg': ll+=1
+    else: rl += 1
 
 
-print("Count of 99 : ",count)
-print("Count of 100 : ",count2)
+def giveMeMyData():
+    return mod_res2
+
+# print("Count of 99 : ",count)
+print("Left Backward : ",lb)
+print("Left Forward : ",lf)
+print("Right Forward : ",rf)
+print("Right Backward : ",rb)
+print("Left Leg : ",ll)
+print("Right Leg : ",rl)
+
+# synthetic.expert_generator_engine( logreg)
+# print(mod_res2)

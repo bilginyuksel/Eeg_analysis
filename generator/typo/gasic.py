@@ -19,15 +19,24 @@ class BasicGenerator(Generator):
         super().__init__(data)
 
         self.ndata = []
-        self.mini_maxi = []
 
-        self.arr_maxi = dmaxi(self.data)
+        self.arr_maxi = ()
+        self.arr_mini = ()
+
+    def configure(self):
         self.arr_mini = dmini(self.data)
+        self.arr_maxi = dmaxi(self.data)
 
     
     # @Override method
     def generate(self, datalen):
-        self.ndata = [[randint(int(self.arr_mini[feature]), int(self.arr_maxi[feature])) for feature in range(len(self.features))] for data in range(datalen)]
+        for data in range(datalen):
+            ftemp = []
+            for feature in range(len(self.features)):
+                ftemp.append(randint(int(self.arr_mini[feature]), int(self.arr_maxi[feature])))
+            self.ndata.append(ftemp)
+
+        # self.ndata = [[randint(int(self.arr_mini[feature]), int(self.arr_maxi[feature])) for feature in range(len(self.features))] for data in range(datalen)]
         return self.ndata
 
 

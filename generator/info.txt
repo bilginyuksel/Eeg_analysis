@@ -1,0 +1,17 @@
+Create util file which contains brain wave generation algorithms.
+When you create a generator first configure the generator settings.
+After the configuration generate data one by one.
+
+For Expert Generator:
+1) find the optimum data.
+2) find the percentages
+3) Generate data according to optimum data and percentages
+
+For Medium Generator:
+1) Find mean, min, max values of data
+2) Find percentages
+3) Generate data according those values
+
+For Basic Generator:
+1) Find min, max
+2) Generate data according to those values

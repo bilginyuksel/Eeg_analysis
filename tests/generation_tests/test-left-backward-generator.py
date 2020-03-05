@@ -18,19 +18,33 @@ Find its neighbors, or find the percentage the correctnes.
 
 class LeftArmBackwardTest:
 
-    def test_generated_left_backward_rf_score(self, data):
+    def __init__(self, data, models):
+        self.data = data
+        self.generator = SyntheticDataGenerator()
+
+        # Models is a dictionary which contains machine learning models
+        # self.models['rf']
+        # self.models['lr']
+        # self.models['knn']
+        # self.models['dt]
+        self.models = models
+        
+
+    def test_generated_left_backward_rf_score(self):
+
+        
         return -1
 
 
-    def test_generated_left_backward_lr_score(self, data):
+    def test_generated_left_backward_lr_score(self):
         return -1
 
 
-    def test_generated_left_backward_knn_score(self, data):
+    def test_generated_left_backward_knn_score(self):
         return -1
 
 
-    def test_generated_left_backward_dt_score(self, data):
+    def test_generated_left_backward_dt_score(self):
         return -1
 
 
@@ -38,18 +52,23 @@ class LeftArmBackwardTest:
     # When it runs all test it returns a tuple of scores.
     # Order of scores (Random Forest, Logistic Regression, KNN, Decision Tree)
     def runAll(self, generated_data):
-        rf_score = self.test_generated_left_backward_dt_score(data)
-        lr_score = self.test_generated_left_backward_lr_score(data)
-        knn_score = self.test_generated_left_backward_knn_score(data)
-        dt_score = self.test_generated_left_backward_dt_score(data)
 
-        return (rf_score, lr_score, knn_score, dt_score)
+        return (self.test_generated_left_backward_dt_score(),
+                self.test_generated_left_backward_lr_score(),
+                self.test_generated_left_backward_knn_score(),
+                self.test_generated_left_backward_dt_score())
 
 
-generator = SyntheticDataGenerator()
-data = generator.generate_left_backward_data(raw_data, datalen = 100)
+# Prepare data and models
+models = {
+    'rf':rf_model,
+    'lr':lr_model,
+    'dt':dt_model,
+    'knn':knn_model
+}
+data = pd.DataFrame(raw_data)
 
-left_arm_test = LeftArmBackwardTest()
-rf_score = left_arm_test.test_generated_left_backward_rf_score(data)
+left_arm_test = LeftArmBackwardTest(data, models)
+rf_score = left_arm_test.test_generated_left_backward_rf_score()
 
 

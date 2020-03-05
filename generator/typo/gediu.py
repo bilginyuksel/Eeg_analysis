@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from random import randint
-from .utils import dmini, dmaxi, dmean, Generator
+from .utils import dmini, dmaxi, dmean, Generator, percentages2B
 
 """
     Medium Generator, generates data according to percentage tolerance 
@@ -26,31 +26,26 @@ class MediumGenerator(Generator):
 
         # Initializa data properties
         # Throw errors if they are not equal.
-        self.arr_mini = dmini(data)
-        self.arr_maxi = dmaxi(data)
-        self.arr_meani = dmean(data)
+        self.arr_mini = ()
+        self.arr_maxi = ()
+        self.arr_meani = ()
+
+    def configure(self):
+        self._configureMinMaxMean()
+        self._configurePercentages()
+
+    def _configureMinMaxMean(self):
+        self.arr_maxi = dmaxi(self.data)
+        self.arr_mini = dmini(self.data)
+        self.arr_meani = dmean(self.data)
+
+    def _configurePercentages(self):
+        self.percentages = percentages2B(self.arr_mini, self.arr_meani, self.arr_maxi)
 
 
-    def _calc_percentage(self):
-
-        percentages = []
-        
-        for mini, meani, maxi in zip(self.arr_mini, self.arr_meani, self.arr_maxi):
-            dist_mini = abs(meani - mini)
-            dist_maxi = abs(meani - maxi)
-
-            minimum_distance = min(dist_mini, dist_maxi)
-
-            percentage = (minimum_distance / meani * 100)
-            percentages.append(percentage)
-
-        return percentages
-        
 
     # @Override method.
     def generate(self, datalen):
-
-        self.percentages = self._calc_percentage()
 
         for _ in range(datalen):
             tmp_features = []
@@ -65,5 +60,17 @@ class MediumGenerator(Generator):
 
 
         return self.ndata
+
+
+# from scipy.io import loadmat
+
+# data = pd.DataFrame(loadmat('C:/Users/bilgi/Documents/Yuksel Documents/BCI/BCI/Eeg_analysis/tests/Subject1_2D.mat')['LeftBackward1'])
+# medgen = MediumGenerator(data)
+# medgen.configure()
+# print("Min : ",medgen.arr_mini)
+# print("Max : ",medgen.arr_maxi)
+# print("Mean : ",medgen.arr_meani)
+# print("Percentages : ", medgen.percentages)
+# print(pd.DataFrame(medgen.generate(5)))
 
 
