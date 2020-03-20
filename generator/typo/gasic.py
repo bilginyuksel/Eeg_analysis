@@ -30,7 +30,7 @@ class BasicGenerator(Generator):
     
     # @Override method
     def generate(self, datalen):
-        for data in range(datalen):
+        for _ in range(datalen):
             ftemp = []
             for feature in range(len(self.features)):
                 ftemp.append(randint(int(self.arr_mini[feature]), int(self.arr_maxi[feature])))

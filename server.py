@@ -1,13 +1,14 @@
 import socket
 import time
 import sys
+import pandas as pd
 
 sys.path.append('generator')
 from generator.synthetic import SyntheticDataGenerator, giveMeMyData
 
 # Change ip address if you are starting server from
 # different network
-ip = "172.20.10.3"
+ip = "192.168.1.48"
 const_connection_close_command = "Stop"
 
 # Server socket configuration
@@ -48,14 +49,14 @@ if mission == "generate" and code == "666":
 
         # Send information to client here.
         # You will send AI response here.
-        mod_res = giveMeMyData()
+        dataPoints, mod_res = giveMeMyData()
         start_time_ms = time.time()
         for j,i in enumerate(mod_res):
-            print(j+1,i)
+            print(dataPoints.loc[j:j].assign( label = [i]))
             if i == 'RightLeg':
                 client_socket.send(str(i+"\n").encode('ascii'))
                 computed_time = time.time() - start_time_ms
-                a = "Index,"+str(j+1)+"," + str(computed_time)+"\n"
+                a = "Index,"+str(j)+"," + str(computed_time)+"\n"
                 client_socket.send(a.encode('ascii'))
                 print("Hunger Loop Completed..")
                 print("Server stops running..")

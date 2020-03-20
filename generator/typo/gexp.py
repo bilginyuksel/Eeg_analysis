@@ -1,10 +1,13 @@
 import pandas as pd
 import numpy as np
 import sys
-from random import randint
+from random import randint, uniform
 # Maybe import just mean
 # sys.path.append(".")
-from .utils import Generator, dmini, dmaxi, dmean
+from .utils import Generator, dmini, dmaxi, dmean, percentages2B
+from .algorithms import findOptimumDataByProbsAndByIndex
+from .constants import *
+import matplotlib.pyplot as plt
 
 
 """
@@ -36,9 +39,18 @@ class ExpertGenerator(Generator):
         self.arr_mean = ()
 
     def setModel(self, model):
+
+        # assert type(self.model) == "logistic Reg", "Bla "
         self.model = model
 
+
+
     def configure(self):
+        # print("Len Data: %s" % len(self.data))
+        assert self.data is not None, "Data should not be None"
+        assert self.model is not None, "You have to set model first!"
+        # assert type(self.model)
+            
         self._config3M()
         self._configOptimum()
         self._configPercentages()
@@ -50,51 +62,54 @@ class ExpertGenerator(Generator):
         self.arr_mean = dmean(self.data)
 
     def _configOptimum(self):
-        pass
+        probs = self.model.predict_proba(self.data)
+        data_index, data_prob, maxfdist = findOptimumDataByProbsAndByIndex(probs, self.selected_index)
+        print("\n\tData Index: %s,\n\tData Prob: %s,\n\tMaxfdist: %s" % (data_index, data_prob, maxfdist))
+        self.optimum_data = self.data.loc[data_index]
+        # print("Self Optimum Data: \n%s\n" % self.optimum_data)
+        # print("Mean Data: \n%s\n" % self.data.mean())
+        # print("Max Data: \n%s\n" % self.data.max())
+        # print("Min Data: \n%s\n" % self.data.min())
 
     def _configPercentages(self):
-        pass
-
-    def _findDist(self, data1, data2):
-        return abs(data1 - data2)
-
-    def findOptimumData(self, category_index = 1):
-        # Get probabalities of model
-        res = self.model.predict_proba(self.data)
-
-        # Declare which data to search
-        # res1 = self.model.predict(self.data[:100])
-
-        general_index = 0
-        for i in res:
-            # it traverses a list
-            # which one we are trying to search
-            maxfdist = 0
-            # Declare fdist first
-            fdist = self._findDist(i[self.selected_index], i[0])
-
-            for j in range(len(i)):
-                # Find the minimum distance between class probabilities
-                if self._findDist(i[self.selected_index], i[j]) < fdist:
-                    fdist = self._findDist(i[self.selected_index], i[j])
-
-            # Find the maximum distance among minimum distances.
-            if maxfdist < fdist:
-                maxfdist = fdist
-                general_index = i
-
-        # return the index of the data which is best of its kind
-        return self.data.loc[general_index], res[general_index]
-
-
-
-
+        self.percentages = percentages2B(self.data.min(),self.optimum_data, self.data.max())
+        print('\n\tPercentages:',self.percentages)
 
     # @Override method
     def generate(self, datalen):
-        
-        self.optimum_data = self._findOptimumData()
-        self.percentages = self._findPercentages()
+        """
+        Create random numbers between the percentages range 
+        then add those percentages to optimum data..
+        """
+        for _ in range(datalen):
+            tmp_features = []
+            for j in range(len(self.features)):
+                
+                """
+                I divided min percentage and max percentage by 2 
+                because the average score was %65 and when i divided min and max by 2
+                the score increased %86. 
+
+                The thing that i did is primitive approach of normalization.
+                We can evaluate this normalization method.
+
+                --------------------------------------------------------
+                BUILD A BETTER NORMALIZATON METHOD
+                --------------------------------------------------------
+                
+                """
+                min_percentage = min(self.percentages[j]*-1, self.percentages[j]) /2
+                max_percentage = max(self.percentages[j]*-1, self.percentages[j]) /2
+                # print("Iteration: %d,\n\tMin Percentage: %s,\n\tMax Percentage: %s" % (j, min_percentage, max_percentage))
+
+                rand_value = uniform(min_percentage, max_percentage)
+                value = self.optimum_data[j] + (self.optimum_data[j] * rand_value / 100)
+                # tmp_features.append(self.optimum_data[j])
+                tmp_features.append(value)
+
+            self.ndata.append(tmp_features)
+
+        return self.ndata
 
 
 from scipy.io import loadmat
@@ -102,9 +117,17 @@ import pickle
 
 
 logreg = pickle.load(open('C:/Users/bilgi/Documents/Yuksel Documents/BCI/BCI/Eeg_analysis/simulation/Logistic Regression.sav','rb'))
-data = pd.DataFrame(loadmat('C:/Users/bilgi/Documents/Yuksel Documents/BCI/BCI/Eeg_analysis/tests/Subject1_2D.mat')['LeftBackwardImagined'])
-gen = ExpertGenerator(data, 0)
-gen.setModel(logreg)
+data = pd.DataFrame(loadmat('C:/Users/bilgi/Documents/Yuksel Documents/BCI/BCI/Eeg_analysis/tests/Subject1_2D.mat')['LeftBackward1'])
+
+exp = ExpertGenerator(data, proba_indexes[l_forward])
+exp.setModel(logreg)
+exp.configure()
+ndata = exp.generate(100)
+print("\nData:",ndata)
+result = logreg.score(ndata, ['LeftBackward' for _ in range(100)])
+print("\n\tResult:",result)
+# gen = ExpertGenerator(data, 0)
+# gen.setModel(logreg)
 # print(gen.findOptimumData())
-a, b = gen.findOptimumData()
-print(max(b))
+# a, b = gen.findOptimumData()
+# print(max(b))

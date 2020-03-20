@@ -1,0 +1,15 @@
+Follow these for expert generation process...
+
+We see that real data has a continious loop. It starts 
+at minimum it goes to maximum, and goes to minimum again.
+
+We have to generate data according to this looping. We have to examine
+real data's periods. 
+
+First of all find the periods that the exact data has. Then
+find where optimum data is placed. And generate data periods.
+Always track periods and try to generate data on this line.
+
+Collect the informations (Period time or data count to complete a period):
+    - In a period know how many percent of data maximized ?
+    - How many percent minimized on a period?

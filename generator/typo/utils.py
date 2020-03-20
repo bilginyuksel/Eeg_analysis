@@ -36,3 +36,5 @@ def percentages2B(lowbound, curbound, upbound):
         perc.append(tmp_perc)
 
     return perc
+
+

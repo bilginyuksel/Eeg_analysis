@@ -97,7 +97,7 @@ for i in mod_res2:
 
 
 def giveMeMyData():
-    return mod_res2
+    return result2, mod_res2
 
 # print("Count of 99 : ",count)
 print("Left Backward : ",lb)
