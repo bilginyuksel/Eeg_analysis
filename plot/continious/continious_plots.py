@@ -1,20 +1,22 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 from scipy.io import loadmat
+import pickle
 import sys
 sys.path.append(".")
 from generator.synthetic import SyntheticDataGenerator
-
+from generator.typo.constants import *
 
 
 class SyntheticDataGenerationPlots:
 
-    def __init__(self, data, title):
+    def __init__(self, data, title, model = None):
         # Load data which is going to generated
         self.data = data
         self.title = title
         self.generator = SyntheticDataGenerator(self.data)
         self.plotter = plt
+        self.model = model
 
     def configPlot(self):
         # self.plotter.title(self.title)
@@ -51,7 +53,7 @@ class SyntheticDataGenerationPlots:
         generator.generateSyntheticData(1)
 
     def plotAll(self):
-        self.generator.configGenerator('Medium')
+        self.generator.configGenerator('Expert', desired_index=proba_indexes[l_backward], model= self.model)
         basic_generator = SyntheticDataGenerator(self.data)
         basic_generator.configGenerator('Basic')
         medium_generator = SyntheticDataGenerator(self.data)
@@ -79,6 +81,9 @@ class SyntheticDataGenerationPlots:
 
 
 
-plots = SyntheticDataGenerationPlots(pd.DataFrame(loadmat('C:/Users/bilgi/Documents/Yuksel Documents/BCI/BCI/Eeg_analysis/tests/Subject1_2D.mat')['LeftBackward1']),"Synthetic Data")
+plots = SyntheticDataGenerationPlots(
+    pd.DataFrame(loadmat('C:/Users/bilgi/Documents/Yuksel Documents/BCI/BCI/Eeg_analysis/tests/Subject1_2D.mat')['LeftBackward1']),
+    "Synthetic Data",
+    pickle.load(open('C:/Users/bilgi/Documents/Yuksel Documents/BCI/BCI/Eeg_analysis/simulation/Random Forest Classifier.sav','rb')))
 plots.configPlot()
 plots.plotAll()

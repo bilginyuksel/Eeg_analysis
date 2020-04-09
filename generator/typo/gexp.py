@@ -98,8 +98,8 @@ class ExpertGenerator(Generator):
                 --------------------------------------------------------
                 
                 """
-                min_percentage = min(self.percentages[j]*-1, self.percentages[j]) /2
-                max_percentage = max(self.percentages[j]*-1, self.percentages[j]) /2
+                min_percentage = min(self.percentages[j]*-1, self.percentages[j]) /1.5
+                max_percentage = max(self.percentages[j]*-1, self.percentages[j]) /1.5
                 # print("Iteration: %d,\n\tMin Percentage: %s,\n\tMax Percentage: %s" % (j, min_percentage, max_percentage))
 
                 rand_value = uniform(min_percentage, max_percentage)
